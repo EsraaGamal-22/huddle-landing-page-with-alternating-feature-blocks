@@ -285,12 +285,13 @@ a:nth-child(2),a:nth-child(3)
         background-repeat: no-repeat;
         background-size:100% 92%;
         width:750px;
-        height: 230vh;
+        height:1440px;
+     
     }
     .container{
     
         width:750px;
-        height:730vh;
+        height:735vh;
         justify-content: start;
 
     }
@@ -361,7 +362,7 @@ a:nth-child(2),a:nth-child(3)
        
         height:150vh;
         text-align: center;
-        margin-bottom:90px ;
+        margin-bottom:99px ;
     
     }
     .col-2 .rrow{
@@ -375,23 +376,21 @@ a:nth-child(2),a:nth-child(3)
     }
     .cont-1{
         padding-left: 0px;
-       padding-bottom: 10px;
-       
-       
-        
-    
+        padding-bottom: 20px;
     }
     .cont-1-2{
         text-align: center;
-        margin-bottom: 70px;
+        margin-bottom: 60px;
+        padding-right: 0px;
     }
     .cont-1 p,.cont-1-2 p{
         font-size: 30px;
         line-height: 2.5rem;
+        padding-left: 25px;
 
     }
     .cont-1 h2 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
     .cont-1-2 h2
     {
@@ -400,7 +399,7 @@ a:nth-child(2),a:nth-child(3)
     .cont-2{
         width:70%;
         padding-right: 0px;
-        padding-top: 130px;
+        padding-top: 125px;
     }
     .cont-2-2{
         width:70%;
@@ -415,7 +414,7 @@ a:nth-child(2),a:nth-child(3)
         width: 88%;
         height:45vh;
         padding-top: 60px;
-        top:-190px;
+        top:-220px;
         left: 30px;
      
     
@@ -432,7 +431,7 @@ a:nth-child(2),a:nth-child(3)
       width: 750px;
       height:300vh;
        top:400px; 
-       padding-top: 310px;
+       padding-top: 277px;
        padding-left: 30px;
     }
     .logg
@@ -507,5 +506,4 @@ a:nth-child(2),a:nth-child(3)
     margin-right: 0px;
     margin-top: 0px;
     padding-right: 50px;
-}
 }
