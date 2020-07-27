@@ -21,7 +21,7 @@ button:hover{
     background: url("images/bg-hero-desktop.svg");
     background-color: hsl(193, 100%, 96%);
     background-repeat: no-repeat;
-    width:100%;
+    width:1560px;
     height: 115vh;
     position: absolute;
 }
