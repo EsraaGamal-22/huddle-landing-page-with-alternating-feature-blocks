@@ -10,8 +10,12 @@ h1,h2{
     color:hsl(192, 100%, 9%);
 }
 p{
-font-weight: 500;
+    font-weight: 500;
 
+}
+button:hover{
+    cursor: pointer;
+    outline: none;
 }
 .background-col-1{
     background: url("images/bg-hero-desktop.svg");
@@ -55,6 +59,7 @@ header button{
     font-weight: 700 !important;
     font-size: 14px !important;
     box-shadow: 5px 10px 8px #E1EDF3;
+    outline: none;
 }
 .left{
     float:left;
@@ -76,6 +81,7 @@ header button{
     background-color: hsl(322, 100%, 66%);
     border-radius: 30px ;
     border: none;
+    outline: none;
     text-align: center;
     padding:20px 25px;
     width: 55%;
@@ -83,7 +89,9 @@ header button{
     font-weight: 700 !important;
     font-size: 14px !important;
     color:#ffffff;
+
 }
+
 .right{
     float:right;
     width:50%;
@@ -160,8 +168,6 @@ header button{
     position: absolute;
     top: -185px;
     left: 320px;
-
-   
 }
 .box h2{
    
@@ -180,7 +186,9 @@ header button{
     font-weight: 700 !important;
     font-size: 19px !important;
     color:#ffffff;
+    outline: none;
 }
+
 footer{
     width: 1440px;
     height:100vh;
@@ -225,13 +233,26 @@ footer{
 .row-2,.row-3{
     width:17%;
 }
-.row-2 p ,.row-3 p
+.row-2 a ,.row-3 a
 {
-    
-    margin-top: 6px;
-    margin-left: 40px;
+    margin-top: 5px;
+    display:block;
+    text-decoration: none;
+    color: #ffffff;
 
 }
+.row-2 a{
+    margin-left: 43px;
+}
+.row-3 a{
+    margin-left: 30px;
+}
+a:nth-child(2),a:nth-child(3)
+{
+    margin-top: 18px;
+}
+
+
 .social-media{
     width:16%;
     padding-top: 4px;
@@ -446,22 +467,34 @@ footer{
    .row-3{
        margin-top: 10px;
    }
-   .row-2 p,.row-3 p{
-       margin-left: 10px;
+   .row-2 a,.row-3 a{
+       margin-left: 8px;
        font-size: 35px;
+   }
+   .row-2 a{
        margin-top: 0px;
+   }
+   .row-3 a{
+       margin-top: 24px;
+   }
+   a:nth-child(2),a:nth-child(3)
+   {
+       margin-top: 40px;
    }
    .social-media{
        width:90%;
        height:50vh;
- 
    }
    .social-media .circle {
     height: 66px;
     width: 66px;
-    margin-top: 80px;
-    margin-right: 14px;
+    margin-top: 99px;
+    margin-left: 10px;
    
+}
+.circle:nth-child(2),.circle:nth-child(3)
+{
+    margin-left: 20px;
 }
 .fab{
     font-size: 1.5em !important;
