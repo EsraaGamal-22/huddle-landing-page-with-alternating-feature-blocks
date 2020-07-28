@@ -291,14 +291,17 @@ a:nth-child(2),a:nth-child(3)
     .container{
     
         width:750px;
-        height:735vh;
+        /*height:750vh;*/
+        height:4700px;
         justify-content: start;
+
 
     }
 
     .col-1{
         width: 91%;
         margin-bottom: 164px;
+     
       
     
     }
@@ -354,33 +357,35 @@ a:nth-child(2),a:nth-child(3)
     }
     .col-2{
         width:89%;
-        height:485vh;
+        height:3150px ;
+
         
 
     }
     .col-2 .rrow, .col-2 .rrow-2{
-       
-        height:150vh;
+        height:960px;
         text-align: center;
-        margin-bottom:99px ;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        margin-bottom:70px ;
+     
     
     }
     .col-2 .rrow{
-        flex-direction: column-reverse;
+        padding-top: 50px;
     }
     .col-2 .rrow-2{
-        flex-direction: column-reverse;
+        padding-top: 8px;
     }
     .cont-1,.cont-1-2{
         width:85%;
     }
     .cont-1{
         padding-left: 0px;
-        padding-bottom: 20px;
+        
     }
     .cont-1-2{
         text-align: center;
-        margin-bottom: 60px;
         padding-right: 0px;
     }
     .cont-1 p,.cont-1-2 p{
@@ -399,25 +404,18 @@ a:nth-child(2),a:nth-child(3)
     .cont-2{
         width:70%;
         padding-right: 0px;
-        padding-top: 125px;
     }
     .cont-2-2{
         width:70%;
         padding-left: 0px;
-        padding-top: 150px;
-
     }
-  
- 
-    
     .box{
         width: 88%;
-        height:45vh;
+        /*height:45vh;*/
+        height:290px;
         padding-top: 60px;
         top:-220px;
         left: 30px;
-     
-    
        
     }
     .box h2
@@ -487,7 +485,7 @@ a:nth-child(2),a:nth-child(3)
    .social-media .circle {
     height: 66px;
     width: 66px;
-    margin-top: 99px;
+    margin-top:110px;
     margin-left: 10px;
    
 }
@@ -507,3 +505,4 @@ a:nth-child(2),a:nth-child(3)
     margin-top: 0px;
     padding-right: 50px;
 }
+} 
